@@ -1,34 +1,37 @@
 # Breast cancer
 
-# IMPACT ANALYSIS OF Lymph Nodes on Cancer
+### IMPACT ANALYSIS OF Lymph Nodes on Cancer
 <p align="center">
-  <img width="460" height="300" src="images/BreastCancer.jpg">
+  <img width="400" height="300" src="images/BreastCancer.jpg">
 </p>
 
 ## INTRODUCTION
-The Telecom Regulatory Authority of India (TRAI) recently drafted new regulations and directed various DTH service providers and operators to implement them. These regulations were set up to ensure all operators in the DTH and cable ecosystem get a fair share of earnings. 
-The immediate benefit will be passed to consumers as they get to choose what they want to watch and pay for it accordingly. The new plans are already in existence since February 1, 2019.
+Breast cancer is cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin.
 
-Though TRAI’s intent was to provide benefits to the Consumer, Service Providers and Broadcasters, but there has been a growing concern from the consumers around the increased cost of cable fees which they have to pay under the new cost structure.
+Symptoms: Lump in a breast, change in breast etc.,
+Risk factors: Female, obesity, lack of exercise etc.,
+Treatment: Surgery, radiation therapy, chemot etc.,
+Diagnostic method: Tissue biopsy
 
--__Key concern :__ Why do we have to pay more now? 
-  - It is estimated that the average cable fees was around 250 Rs where an consumer was able to watch all the channels. But now, consumers are complaining that now they have to more 2 to 4 times more for the same choice. 
-  - Is this a fair deal?
+Lymph Nodes are small clumps of immune cells that act as filters for the lymphatic system. The lymphatic system runs throughout the body (like the circulatory (blood) system) and carries fluid and cells.If breast cancer spreads, the lymph nodes in the underarm (the axillary lymph nodes) are the first place it’s likely to go.The number of axillary lymph nodes can vary from person to person, ranging from 5 nodes to more than 30.Lymph node status is highly related to prognosis.
 
-An analysis was done on the Master Channel list to see what offerings are available in Pay and Free channels. And also to test TRAIs few recommendations like choosing your channels wisely and limited to 50 channels (as the survey suggests "around 90% of an average viewer does not watch more than 50 channels") and verify the below 2 primary concerns (by studying sample data - using live user selection), 
-- can we beat (250 Rs) as this is the benchmark consumers have set(this is cable fee that they used pay)?
-- Is it going to cost 2-4 times more as most of consumers fear?
+Lymph Node-negative means the axillary lymph nodes do not contain cancer.
+Lymph Node-positive means the axillary lymph nodes contain cancer.
+
+
+__Problem Statment :__ 
+- How many survived after 5 years and how many died before 5 years?
+- How the Positive axillary nodes (Pathologic staging) and survivals are related?
+- How Survivals and Age and Axillary nodes are related?
+- How the survivals and year of operation related?
 
 ## DATA
-| Column Name         | Description                                               |
-| ------------------- |:-------------                                             | 
-| Pack_Name           | Channel Name                                              | 
-| Pack_Value          | Monthly Cost                                              |  
-| Monthly_Cost_in_Rs  | Cost per month                                            | 
-| Choose_Yes_No       | Wishlist selection                                        |   
-| Channel_Genre       | Genre - movies,music,sports,infotainment etc              |
-| Channel_Language    | Primary Language                                          |
-| Channel_Type        | Standard Definition(SD) or High Definition(HD)            |
+| Column Name             | Description                                                                                             |
+| -------------------     |:-------------                                                                                           | 
+| __Age__                 | Age of patient at time of operation (numerical)                                                         | 
+| __Years_of_operation__  | Patient's year of operation (year - 1900, numerical)                                                    |  
+| __Pos_axillary_nodes__  | Number of positive axillary nodes detected (numerical)                                                  | 
+| __Status__              | Surival status (class attribute) (1=patient survived 5 years or longer,2=patient died within 5 year)    |     
 
 
 ## PROJECT ANALYSIS
