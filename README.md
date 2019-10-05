@@ -54,16 +54,46 @@ __Problem Statment :__
   <img width="400" height="150" src="images/Data.PNG">
 </p>
 
-- __Countplot__ How many survived after 5 years and how many died before 5 years?
+- __Count Plot:__ How many survived after 5 years and how many died before 5 years?
 <p align="left">
   <img width="800" height="300" src="images/output_51_1.png">
   <br>Notice that more people survied more than 5 Years. 
 </p>
 
-- __Stacked Bar__ How the Positive axillary nodes (Pathologic staging) and survivals are related?
+- __Stacked Bar Plot:__ How the Positive axillary nodes (Pathologic staging) and survivals are related?
 <p align="left">
   <img width="800" height="300" src="images/output_58_1.png">
+  <br>
+  <img width="800" height="300" src="images/output_70_2.png">
 </p>
+
+- __PIE Plot:__ Pathologic staging / Survived Distribution
+<p align="left">
+  <img width="800" height="300" src="images/output_59_2.png">
+  <br><img width="800" height="300" src="images/output_71_3.png">
+</p>
+
+- __Swarm Plot:__ Pathologic staging / Survived Distribution
+<p align="left">
+  <img width="800" height="300" src="images/output_62_1.png">
+  <br>
+Swarm plot trend shows as the positive auxiliary nodes increase the survival rate decreases.
+<br>We see the blue dots (>5years) predominating in the case where stage __increases from N0 to N3__
+<br>And as the __stage increased from N0__ the __red__ dots started to outnumber the blue showing the __fall in the survival(<5years)__
+</p>
+
+- __Violin Plot:__ Positive Axillary Nodes
+<p align="left">
+  <img width="800" height="300" src="images/output_67_2.png">
+  <br>
+  VIOLIN plot shows clearly that women who couldn't survive <5 years after operation was due to the contraction of high positive axillary lymph nodes which decreased the chances of their survival.
+</p>
+
+Notice  
+- Rate of patients __survival is more when postivie axillary numbers are low in number, which means initital stages of patholigical stage__
+- Rate of patients survival after 5 years __decreases__ as pathologic stage __progresess to next stage__
+- Stage __N0 as better chance than N3__
+
 
 ### CONCLUSION
 
