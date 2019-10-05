@@ -103,12 +103,6 @@ Swarm plot trend shows as the positive auxiliary nodes increase the survival rat
   Majority of deaths happened between 1959 and 1966 after that there was declined due to good invention of better medications for both (<5 and >5 years)
 </p>
 
-
-Notice  
-- Rate of patients __survival is more when postivie axillary numbers are low in number, which means initital stages of patholigical stage__
-- Rate of patients survival after 5 years __decreases__ as pathologic stage __progresess to next stage__
-- Stage __N0 as better chance than N3__
-
 - __Heat Plot:__ Pathologic staging / Survived Distribution
 <p align="left">
   <img width="800" height="300" src="images/output_84_1.png">
@@ -116,5 +110,18 @@ Notice
   There is positive correlation between Positive axillary nodes and Status(Survival) which is also proven by using the violin and swarm plot.
 </p>
 
+- Rate of patients __survival is more when postivie axillary numbers are low in number, which means initital stages of patholigical stage__
+- Rate of patients survival after 5 years __decreases__ as pathologic stage __progresess to next stage__
+- Stage __N0 as better chance than N3__
+
+#### Hypothesis: More women with less axillary nodes are more likely to survive after 5 years
+
 ### CONCLUSION
+- With the help of this notebook we learnt how exploratory data analysis can be carried out using Pandas plotting.
+- Also we have seen making use of packages like __matplotlib and seaborn__ to develop better insights about the data.<br/>
+- We have also seen how __preproceesing__ helps in dealing with _missing_ values and irregualities present in the data. We also learnt how to _create new features_ which will in turn help us to better predict the survival. 
+- We also make use of __pandas profiling__ feature to generate an html report containing all the information of the various features present in the dataset.
+- We have seen the impact of columns like Age, postitive axillary nodes and year of operation on the __rate of survival > 5 years__
+- The most important inference drawn from all this analysis is, we get to know what are the __features on which survival is highly positively and negatively coorelated with.__ 
+- This analysis will help us to choose which __machine learning model__ we can apply to predict survival of test dataset. 
 
