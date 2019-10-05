@@ -9,10 +9,11 @@
 Breast cancer is cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin.
 
 __TNM staging system__ The most commonly used tool that doctors use to describe the stage of the cancer. Doctors use the results from diagnostic tests and scans to answer these questions:<br/>
-      __Tumor (T):__ How large is the primary tumor? Where is it located?
-      __Node (N):__ Has the tumor spread to the lymph nodes? If so, where and how many?
-      __Metastasis (M):__ Has the cancer spread to other parts of the body? If so, where and how much?
-       The __“N”__ in the __TNM staging system__ stands for __lymph nodes__.<br/><br/>
+
+  __Tumor (T):__ How large is the primary tumor? Where is it located?
+  __Node (N):__ Has the tumor spread to the lymph nodes? If so, where and how many?
+  __Metastasis (M):__ Has the cancer spread to other parts of the body? If so, where and how much?
+   The __“N”__ in the __TNM staging system__ stands for __lymph nodes__.<br/><br/>
   
   __Clinical staging:__ Evaluates the lymph nodes __before the surgery__, based on other tests and/or a physical examination.
   __Pathologic staging:__ Evaluates the lymph nodes __after the surgery__, which is a more accurate assessment.
@@ -23,7 +24,6 @@ __TNM staging system__ The most commonly used tool that doctors use to describe 
       - N2: The cancer has spread to 4 to 9 axillary lymph nodes. Or it has spread to the internal mammary lymph nodes, but not the     axillary lymph nodes.
       - N3: The cancer has spread to 10 or more axillary lymph nodes. Or it has spread to the lymph nodes located under 
       
-
 __Problem Statment :__ 
 - How many survived after 5 years and how many died before 5 years?
 - How the Positive axillary nodes (Pathologic staging) and survivals are related?
