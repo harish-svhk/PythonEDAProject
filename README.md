@@ -8,16 +8,21 @@
 ## INTRODUCTION
 Breast cancer is cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin.
 
-Symptoms: Lump in a breast, change in breast etc.,
-Risk factors: Female, obesity, lack of exercise etc.,
-Treatment: Surgery, radiation therapy, chemot etc.,
-Diagnostic method: Tissue biopsy
-
-Lymph Nodes are small clumps of immune cells that act as filters for the lymphatic system. The lymphatic system runs throughout the body (like the circulatory (blood) system) and carries fluid and cells.If breast cancer spreads, the lymph nodes in the underarm (the axillary lymph nodes) are the first place it’s likely to go.The number of axillary lymph nodes can vary from person to person, ranging from 5 nodes to more than 30.Lymph node status is highly related to prognosis.
-
-Lymph Node-negative means the axillary lymph nodes do not contain cancer.
-Lymph Node-positive means the axillary lymph nodes contain cancer.
-
+__TNM staging system__ The most commonly used tool that doctors use to describe the stage of the cancer. Doctors use the results from diagnostic tests and scans to answer these questions:<br/>
+      __Tumor (T):__ How large is the primary tumor? Where is it located?
+      __Node (N):__ Has the tumor spread to the lymph nodes? If so, where and how many?
+      __Metastasis (M):__ Has the cancer spread to other parts of the body? If so, where and how much?
+       The __“N”__ in the __TNM staging system__ stands for __lymph nodes__.<br/><br/>
+  
+  __Clinical staging:__ Evaluates the lymph nodes __before the surgery__, based on other tests and/or a physical examination.
+  __Pathologic staging:__ Evaluates the lymph nodes __after the surgery__, which is a more accurate assessment.
+  
+      - NX: The lymph nodes were not evaluated.
+      - N0: Either No cancer was found in the lymph nodes or Only areas of cancer smaller than 0.2 mm are in the lymph nodes.
+      - N1: The cancer has spread to 1 to 3 axillary lymph nodes and/or the internal mammary lymph nodes.
+      - N2: The cancer has spread to 4 to 9 axillary lymph nodes. Or it has spread to the internal mammary lymph nodes, but not the     axillary lymph nodes.
+      - N3: The cancer has spread to 10 or more axillary lymph nodes. Or it has spread to the lymph nodes located under 
+      
 
 __Problem Statment :__ 
 - How many survived after 5 years and how many died before 5 years?
@@ -32,14 +37,17 @@ __Problem Statment :__
 | __Years_of_operation__  | Patient's year of operation (year - 1900, numerical)                                                    |  
 | __Pos_axillary_nodes__  | Number of positive axillary nodes detected (numerical)                                                  | 
 | __Status__              | Surival status (class attribute) (1=patient survived 5 years or longer,2=patient died within 5 year)    |     
+## Data Profiling
+- In the upcoming sections we will first __understand our dataset__ using various pandas functionalities.
+- Then with the help of __pandas profiling__ we will find which columns of our dataset need preprocessing.
+- In __preprocessing__ we will deal with erronous and missing values of columns. 
+- Again we will do __pandas profiling__ to see how preprocessing have transformed our dataset.
 
-
-## PROJECT ANALYSIS
-| Description | Analysis |
-| --- | --- |
-| Channels_Data.head | ![image.png](images/PrimaryMasterData.png) |
-| Sample_Data | ![image.png](images/SampleUsers.png) |
-
+## Pre Profiling
+- By pandas profiling, an __interactive HTML report__ gets generated which contins all the information about the columns of the dataset, like the __counts and type__ of each _column_. Detailed information about each column, __coorelation between different columns__ and a sample of dataset.<br/>
+- It gives us __visual interpretation__ of each column in the data.
+- _Spread of the data_ can be better understood by the distribution plot. 
+- _Grannular level_ analysis of each column.
 
 ### CONCLUSION
 
