@@ -77,9 +77,12 @@ __Problem Statment :__
 <p align="left">
   <img width="800" height="300" src="images/output_62_1.png">
   <br>
+  <img width="800" height="300" src="images/output_82_1.png">
+  <br>
 Swarm plot trend shows as the positive auxiliary nodes increase the survival rate decreases.
 <br>We see the blue dots (>5years) predominating in the case where stage __increases from N0 to N3__
 <br>And as the __stage increased from N0__ the __red__ dots started to outnumber the blue showing the __fall in the survival(<5years)__
+<br>Majority of deaths happened between 1958 and 1966 after that there was decline for both (<5 and >5 years)
 </p>
 
 - __Violin Plot:__ Positive Axillary Nodes
@@ -89,11 +92,29 @@ Swarm plot trend shows as the positive auxiliary nodes increase the survival rat
   VIOLIN plot shows clearly that women who couldn't survive <5 years after operation was due to the contraction of high positive axillary lymph nodes which decreased the chances of their survival.
 </p>
 
+- __Distribution Plot__
+<p align="left">
+  <img width="800" height="300" src="images/output_74_1.png">
+  <br><img width="800" height="300" src="images/output_76_1.png">
+  <br><img width="800" height="300" src="images/output_79_1.png">
+  <br>
+  The age is normally distributed whereas the positive axillary nodes is right skewed.<br>
+  Age is normally distributed between >5year and <5years survivals and the mean is around 50 years for both.<br>
+  Majority of deaths happened between 1959 and 1966 after that there was declined due to good invention of better medications for both (<5 and >5 years)
+</p>
+
+
 Notice  
 - Rate of patients __survival is more when postivie axillary numbers are low in number, which means initital stages of patholigical stage__
 - Rate of patients survival after 5 years __decreases__ as pathologic stage __progresess to next stage__
 - Stage __N0 as better chance than N3__
 
+- __Heat Plot:__ Pathologic staging / Survived Distribution
+<p align="left">
+  <img width="800" height="300" src="images/output_84_1.png">
+  <br>
+  There is positive correlation between Positive axillary nodes and Status(Survival) which is also proven by using the violin and swarm plot.
+</p>
 
 ### CONCLUSION
 
