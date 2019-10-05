@@ -53,5 +53,17 @@ __Problem Statment :__
 <p align="left">
   <img width="400" height="150" src="images/Data.PNG">
 </p>
+
+- __Countplot__ How many survived after 5 years and how many died before 5 years?
+<p align="left">
+  <img width="800" height="300" src="images/output_51_1.png">
+  <br>Notice that more people survied more than 5 Years. 
+</p>
+
+- __Stacked Bar__ How the Positive axillary nodes (Pathologic staging) and survivals are related?
+<p align="left">
+  <img width="800" height="300" src="images/output_58_1.png">
+</p>
+
 ### CONCLUSION
 
