@@ -1,7 +1,6 @@
-# DTHCableFeeComputation
-DTH Cable Fee Analysis and Computation
+# Breast cancer
 
-# IMPACT ANALYSIS OF COST OF CABLE(DTH) FEES
+# IMPACT ANALYSIS OF Lymph Nodes on Cancer
 <p align="center">
   <img width="460" height="300" src="images/BreastCancer.jpg">
 </p>
