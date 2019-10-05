@@ -49,5 +49,8 @@ __Problem Statment :__
 - Found __44.4% zeros__ of __Pos_axillary_nodes__, but these are also __valid__ data, which indicates early stages of cancer – Either No cancer was found in the lymph nodes or only areas of cancer smaller than 0.2 mm are in the lymph nodes.
 - Converted two digits year of operation to four digits
 - Create a function to categorize different pathological stages of cancer depedning on Positive Axillary Nodes
+<p align="left">
+  <img width="400" height="150" src="images/Data.PNG">
+</p>
 ### CONCLUSION
 
