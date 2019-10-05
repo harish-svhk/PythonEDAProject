@@ -3,7 +3,7 @@ DTH Cable Fee Analysis and Computation
 
 # IMPACT ANALYSIS OF COST OF CABLE(DTH) FEES
 <p align="center">
-  <img width="460" height="300" src="images/TRAIsNewRules.jpg">
+  <img width="460" height="300" src="images/BreastCancer.jpg">
 </p>
 
 ## INTRODUCTION
